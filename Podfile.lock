@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (5.0.0-rc.2)
+  - AlamofireObjectMapper (6.2.0):
+    - Alamofire (= 5.0.0-rc.2)
+    - ObjectMapper (~> 3.5.1)
+  - INSPersistentContainer (1.0.2)
+  - MBProgressHUD (1.2.0)
+  - ObjectMapper (3.5.3)
+
+DEPENDENCIES:
+  - Alamofire (= 5.0.0-rc.2)
+  - AlamofireObjectMapper
+  - INSPersistentContainer
+  - MBProgressHUD
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AlamofireObjectMapper
+    - INSPersistentContainer
+    - MBProgressHUD
+    - ObjectMapper
+
+SPEC CHECKSUMS:
+  Alamofire: f9450d3c7f6bea2ad62e7a541c3e9b186c7991d6
+  AlamofireObjectMapper: 74d1440c92c42bbcc2b5f4dc81654ac095ec669f
+  INSPersistentContainer: 7e04a0d332ba075441ce0ee73d584ce84d76ac23
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+
+PODFILE CHECKSUM: d4d64b3374c75b57639a67bac2b984e5cacd0c04
+
+COCOAPODS: 1.9.3
