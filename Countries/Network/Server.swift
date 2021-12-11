@@ -13,12 +13,6 @@ import Foundation
 import CoreData
 
 
-// Create an account at https://rapidapi.com/developer/dashboard and add a new app to get an API key.
-// https://docs.rapidapi.com/docs/keys
-
-let kRapidAPIKey = "SIGN-UP-FOR-KEY"
-
-
 public typealias JSON = [String : Any]
 
 public extension Notification.Name {
@@ -53,7 +47,7 @@ class Server {
     }
     
     private convenience init() {
-        self.init(host: "restcountries-v1.p.rapidapi.com", path: "/")
+        self.init(host: "restcountries.com", path: "/v3.1/all")
     }
 
     
@@ -73,10 +67,7 @@ class Server {
     /// - returns: list of headers
     public func headers( extraHeaders: [String: String]? = nil ) -> [String: String] {
         
-        var headers: [String: String] = [
-            "X-RapidAPI-Host": "restcountries-v1.p.rapidapi.com",
-            "X-RapidAPI-Key": kRapidAPIKey
-        ]
+        var headers: [String: String] = []
         
         if let extraHeaders = extraHeaders {
             headers += extraHeaders
